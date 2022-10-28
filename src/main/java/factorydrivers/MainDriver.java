@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 public class MainDriver {
     public static void main(String[]arg){
 
-        DriverSelenium driverSelenium = FactoryDriver.initialize("FIREFOX");
+        DriverSelenium driverSelenium = FactoryDriver.initialize("CHROME");
         WebDriver webDriver =driverSelenium.createDriver();
         webDriver.get("https://www.github.com");
         try {
